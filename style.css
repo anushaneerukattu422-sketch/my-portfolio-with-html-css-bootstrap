@@ -1,0 +1,21 @@
+/* ===== Site Theme ===== */
+:root { --brand: #0d6efd; }
+
+html { scroll-behavior: smooth; }
+.hero-section { background: linear-gradient(180deg, #f5f6f8 0%, #ffffff 100%); }
+.hero-image { max-height: 380px; object-fit: cover; }
+.navbar .nav-link:hover { color: var(--brand); }
+.card { border: 1px solid #eef2f7; }
+.progress-bar { font-weight: 600; }
+
+/* Brand block */
+.bg-brand { background: var(--brand); }
+
+/* Timeline (used on resume page) */
+.timeline { position: relative; padding-left: 1rem; border-left: 2px solid #e5e7eb; }
+.timeline-item { position: relative; margin-left: 0.5rem; padding-left: 1.25rem; margin-bottom: 1.25rem; }
+.timeline-dot { position: absolute; left: -9px; top: 0.35rem; width: 14px; height: 14px; background: var(--brand); border-radius: 50%; box-shadow: 0 0 0 4px rgba(13,110,253,.15); }
+
+/* Footer links */
+footer a { color: #64748b; }
+footer a:hover { color: var(--brand); }
